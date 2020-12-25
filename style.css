@@ -203,9 +203,8 @@ p {
     width: 100%;
     flex-direction: column;
   }
-  /*
-  h2 {
+  .header-title {
     text-align: center;
+    font-size: 1.2rem;
   }
-  */
 }
