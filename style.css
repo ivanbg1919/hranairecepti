@@ -14,6 +14,7 @@ body {
   padding: 60px;
   text-align: center;
   background: #d35b3f;
+  background-image: linear-gradient(to right, #d35b3f, #ac452e);
   color: white;
 }
 
