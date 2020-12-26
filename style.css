@@ -298,6 +298,11 @@ p {
   }
 
   .modal {
+    width: 100%;
     padding: 1.2rem;
+  }
+  .close-modal {
+    font-size: 2rem;
+    top: 1rem;
   }
 }
