@@ -68,7 +68,7 @@ p {
 }
 
 .topnav a.active {
-  background-color: #b6af76;
+  background-color: #2d5157;
   color: white;
 }
 
@@ -125,7 +125,37 @@ p {
 
 .side h2 {
   font-size: 1.2rem;
-  text-align: center;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.side h3 {
+  font-size: 1.1rem;
+  color: #d35b3f;
+  text-transform: uppercase;
+  margin: 5px 0;
+}
+
+.side-link {
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.side-link a {
+  font-size: 1.1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.side-link a:visited {
+  color: #818181;
+}
+
+.side-link a:hover,
+.side-link a:active {
+  text-decoration: underline;
+  color: #222;
 }
 
 .fakeimg {
@@ -166,7 +196,7 @@ p {
 
 .ul-sidebar-item {
   color: #4d8088;
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   padding: 5px;
   text-transform: uppercase;
   font-weight: 900;
@@ -225,9 +255,9 @@ p {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 70%;
+  width: 50%;
   background-color: white;
-  padding: 6rem;
+  padding: 4rem;
   border-radius: 5px;
   box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
   z-index: 10;
@@ -245,7 +275,7 @@ p {
 }
 
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
   .row {
     width: 100%;
     flex-direction: column;
@@ -254,12 +284,18 @@ p {
     text-align: center;
     font-size: 1.2rem;
   }
-
-  .ul-sidebar {
-    display: none;
+  .side {
+    text-align: center;
   }
 
-  .img-first-sidebar {
-    margin-bottom: 20px;
+  .side-link {
+    text-align: center;
+  }
+  .side h2 {
+    text-align: center;
+  }
+
+  .modal {
+    padding: 1.2rem;
   }
 }
