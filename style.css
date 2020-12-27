@@ -122,17 +122,19 @@ p {
   flex: 30%;
   background-color: #f1f1f1;
   padding: 20px;
+  text-align: center;
 }
 
 .side h2 {
-  font-size: 1.2rem;
-  text-align: left;
+  font-size: 1.5rem;
   text-transform: uppercase;
+  text-align: center;
+  color: #222;
 }
 
 .side h3 {
   font-size: 1.1rem;
-  color: #d35b3f;
+  color: #222;
   text-transform: uppercase;
   margin: 5px 0;
 }
@@ -140,13 +142,14 @@ p {
 .side-link {
   font-size: 1rem;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .side-link a {
   font-size: 1.1rem;
   text-decoration: none;
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: normal;
   color: #222;
 }
 
@@ -286,23 +289,12 @@ p {
     text-align: center;
     font-size: 1.2rem;
   }
-  .side {
-    text-align: center;
-  }
-
-  .side-link {
-    text-align: center;
-  }
-  .side h2 {
-    text-align: center;
-  }
 
   .modal {
     width: 100%;
     padding: 1.2rem;
   }
   .close-modal {
-    top: 100%;
     font-size: 2rem;
     top: 1rem;
   }
