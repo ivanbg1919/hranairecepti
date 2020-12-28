@@ -19,9 +19,9 @@ body {
 }
 
 .logo-image {
-  width: 70px;
-  height: 70px;
-  text-align: center;
+  width: 50px;
+  height: 50px;
+  vertical-align: text-bottom;
 }
 
 .header-title {
@@ -31,12 +31,13 @@ body {
 }
 
 h2 {
-  color: #4d8088;
+  color: #222;
   font-size: 1.2rem;
 }
 
 h5 {
-  color: #464646;
+  color: #535353;
+  font-weight: normal;
 }
 
 p {
@@ -249,6 +250,10 @@ p {
   background: none;
 }
 
+.close-modal:focus {
+  outline: none;git
+}
+
 /* -------------------------- */
 /* CLASSES TO MAKE MODAL WORK */
 .hidden {
@@ -281,6 +286,12 @@ p {
 
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 1000px) {
+  .logo-image {
+    width: 30px;
+    height: 30px;
+    vertical-align: text-bottom;
+  }
+
   .row {
     width: 100%;
     flex-direction: column;
