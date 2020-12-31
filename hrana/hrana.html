@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hrana - Hrana i Recepti</title>
+    <link rel="shortcut icon" href="../favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="hrana.css">
+</head>
+<body>      
+    <header class="header">                     
+        <h1 class="header-title"><img  class="logo-image" alt="logo" src="../img/logo.png">Hrana i Recepti</h1>
+    </header>
+    <div class="topnav" id="myTopnav">
+        <a href="../index.html">Naslovna</a>
+        <a href="#hrana" class="active">Hrana</a>
+        <a href="../recepti/recepti.html">Recepti</a>                 
+        <a href="#kontakt">Kontakt</a>         
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+    </div> 
+    <div class="row">        
+        <div class="main">            
+          <h2>HRANA I NJENI SASTOJCI</h2>
+          <h3>Belančevine</h3>
+          <h5>December 31, 2020</h5>                       
+          <p>Belančevine su organske materije iz kojih se uglavnom sastoji naše tielo tkiva ćelije. One služe za izgradnju organizma i naročito su važne u dečijoj ishrani; na svaki kilogram telesne težine odojenčeta, pored ostalih hranljivih materija, potrebno je 3,5 grama belančevina. Sa godinama smanjuju se i potrebe organizma za belančevinama, tako da sa navršene dvadeset četiri godine života iznose 1 gram dnevno na 1 kilogram telesne težine. Belančevine se nalaze u namirnicama životinjskog porijekla (meso, mleko, sir, riba, jaja), i u nekim namirnicarna biljnog poriekla (hleb, griz, pasulj, grašak druge). Belančevine namirnica životinjskog porekla  su bliske onima koje ulaze u sastav našeg tiela zato ih organiza, lakše vari i preraduje, te bolje i više iskorišćava nego belančevine biljnog porekla. U dvevnoj ishrani treba da je zastupljena jedna trećina belančevina životinjskog porekla, a deca treba da uzimaju najmanje dve trećine do jedne polovine životinjskih belančevina od ukupno dnevno potrebnih količina. Belančevine iz namirnica biljnog porekla organizam teže preraduje i usvaja. U dnevnoj hrani treba da bude 60-100 grama belančevina.</p>           
+          <h3>Masti i ulja</h3>
+          <h5>December 31, 2020</h5>                   
+          <p>Masti daju organizmu velike količine energije u vidu toplote. One su najjači kalorični izvori i potrebne su organizmu za održavanje telesne toplote. Telesna toplota organizma se kreće od 36,5-37° C. Zimi organizam stvara više toplote radi održavanja telesne temperature. Tada su povećane i potrebe za masnoćama u dnevnoj hrani. Dnevne potrebe u masnoćama za odraslu osobu iznose oko 70 grama. Životinjske masti i biljna ulja imaju istu kalorijsku vrijednost, ali među njima postoji biološka razlika. U ishrani starijih osoba preporučuju se što manje količine životinjskih masnoća, a više ulja. Ako se u organizam unose preterane količine masti, one prouzrokuju gojaznost i niz oboljenja krvnih sudova, srca, šećernu bolest, bolest jetre i slično. Zato magnoće treba ograničiti samo na potrebne količine.</p>
+          <h3>Šećer i skrobovi</h3>
+          <h5>December 31, 2020</h5> 
+          <p>Sagorijevanjem šećera u organizmu dobija se enevrgija za rad mišića. Što čovek radi teži posao, troši vise energije, pa treba i više šećera u ishrani. Šećeri se nalaze u biljnim namirnicama šećernoj repi, šećernoj trsci, u voću. kao voćni šećer kao skrobovi u žitaricama, brašnu krompiru, koji varenjem prelaze u šećer. Odraslom čoveku je potrebno 350-400 grama dnevno šećera I skroba. Deci ne treba davati preterane količine šećera, slatkiša, kolača, hleba I testenina, jer se smanjuje apetit za drugu neophodnu hranu (meso, jaja, povrće, voće). Ni odrasli takođe ne smeju uzimati prekomerne količine šećera I obroke koje sadržepreviše šećera, jer time se povećava gojaznost, a s njom I sve posledice koje je prate.</p>
+        </div>
+         <!-- modal -->           
+         <div class="modal hidden">            
+            <button class="close-modal">&times;</button>                        
+            <h2>PUNJENA JAJA</h2>
+            <p>
+                <b>4 jaja, 2 kašike ulja, 1-2 kašike pavlake, 2 kašike limunovog soka, 2 kašike senfa, biber, so i malo zelenog peršuna. 
+                </b><br/><br/>
+                Tvrdo kuvana jaja se raspolove, žumanca odvoje, a belanca se napune sledećim sadržajem:<br/>
+                penasto se umute žumanca, ulje, limunov sok, seni i iseckani peršun.<br/><br/>
+                Na isti način jaja se mogu napuniti i nadjevom od jetre, znozga ili šunke.
+            </p>                   
+            </div>                 
+        <div class="overlay hidden"></div>
+        <!-- end of modal -->        
+        <div class="side">   
+            <h2>Hrana i njeni sastojci</h2>    
+            <div class="img-first-sidebar" style="height:230px"></div>             
+            <!--<ul class="ul-sidebar">
+               <li class="ul-sidebar-item"><a href="#belancevine">Belančevine</a></li>
+               <li class="ul-sidebar-item"><a href="#masti">Masti i ulja</a></li>
+               <li class="ul-sidebar-item"><a href="#secer">Šećer i skrobovi</a></li>
+                <li class="ul-sidebar-item"><a href="#minerali">Mineralni sastojci</a></li>
+               <li class="ul-sidebar-item"><a href="#vitamini">Vitamini</a></li>
+            </ul>-->
+            <h2>Recepti</h2> 
+            <h3>Hladna predjela</h3>
+            <p class="side-link show-modal"><a href="#punjenajaja">Punjena jaja</a></p>
+            <div class="fakeimg" style="height:150px;">Banner</div><br>
+            <div class="fakeimg" style="height:150px;">Banner</div><br>
+            <div class="fakeimg" style="height:150px;">Banner</div> 
+          </div>         
+      </div>                
+      <!-- Footer -->
+      <div class="footer">
+        <p>Development by Ivan R.</p>
+      </div>                      
+    <script src="../script.js"></script>
+</body>
+
+</html>

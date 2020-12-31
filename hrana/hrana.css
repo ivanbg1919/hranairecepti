@@ -1,0 +1,36 @@
+.main h2 {
+  text-transform: uppercase;
+}
+
+.main h3 {
+  color: #4d8088;
+  padding: 5px 0;
+  letter-spacing: 0.04rem;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 1000px) {
+  .logo-image {
+    width: 30px;
+    height: 30px;
+    vertical-align: text-bottom;
+  }
+
+  .row {
+    width: 100%;
+    flex-direction: column;
+  }
+  .header-title {
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
+  .modal {
+    width: 100%;
+    padding: 1.2rem;
+  }
+  .close-modal {
+    font-size: 2rem;
+    top: 1rem;
+  }
+}
