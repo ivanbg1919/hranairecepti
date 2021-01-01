@@ -15,15 +15,24 @@
     <header class="header">                     
         <h1 class="header-title"><img  class="logo-image" alt="logo" src="../img/logo.png">Hrana i Recepti</h1>
     </header>
+    <!-- navigacija -->
     <div class="topnav" id="myTopnav">
         <a href="../index.html">Naslovna</a>
-        <a href="#hrana" class="active">Hrana</a>
-        <a href="../recepti/recepti.html">Recepti</a>                 
-        <a href="#kontakt">Kontakt</a>         
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          <i class="fa fa-bars"></i>
-        </a>
-    </div> 
+        <a href="#hrana" class="active">Hrana</a>        
+        <div class="dropdown">
+          <button class="dropbtn">Recepti 
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="../recepti/hladna-predjela.html">Hladna predjela</a>
+         <!--   <a href="#toplapredjela">Topla predjela</a>
+            <a href="#supe">Supe</a> -->
+          </div>
+        </div> 
+        <a href="#kontakt">Kontakt</a>
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+      </div>
+    <!-- kraj navigacije -->
     <div class="row">        
         <div class="main">            
           <h2>HRANA I NJENI SASTOJCI</h2>
@@ -36,38 +45,20 @@
           <h3>Šećer i skrobovi</h3>
           <h5>December 31, 2020</h5> 
           <p>Sagorijevanjem šećera u organizmu dobija se enevrgija za rad mišića. Što čovek radi teži posao, troši vise energije, pa treba i više šećera u ishrani. Šećeri se nalaze u biljnim namirnicama šećernoj repi, šećernoj trsci, u voću. kao voćni šećer kao skrobovi u žitaricama, brašnu krompiru, koji varenjem prelaze u šećer. Odraslom čoveku je potrebno 350-400 grama dnevno šećera I skroba. Deci ne treba davati preterane količine šećera, slatkiša, kolača, hleba I testenina, jer se smanjuje apetit za drugu neophodnu hranu (meso, jaja, povrće, voće). Ni odrasli takođe ne smeju uzimati prekomerne količine šećera I obroke koje sadržepreviše šećera, jer time se povećava gojaznost, a s njom I sve posledice koje je prate.</p>
-        </div>
-         <!-- modal -->           
-         <div class="modal hidden">            
-            <button class="close-modal">&times;</button>                        
-            <h2>PUNJENA JAJA</h2>
-            <p>
-                <b>4 jaja, 2 kašike ulja, 1-2 kašike pavlake, 2 kašike limunovog soka, 2 kašike senfa, biber, so i malo zelenog peršuna. 
-                </b><br/><br/>
-                Tvrdo kuvana jaja se raspolove, žumanca odvoje, a belanca se napune sledećim sadržajem:<br/>
-                penasto se umute žumanca, ulje, limunov sok, seni i iseckani peršun.<br/><br/>
-                Na isti način jaja se mogu napuniti i nadjevom od jetre, znozga ili šunke.
-            </p>                   
-            </div>                 
-        <div class="overlay hidden"></div>
-        <!-- end of modal -->        
-        <div class="side">   
-            <h2>Hrana i njeni sastojci</h2>    
-            <div class="img-first-sidebar" style="height:230px"></div>             
-            <!--<ul class="ul-sidebar">
-               <li class="ul-sidebar-item"><a href="#belancevine">Belančevine</a></li>
-               <li class="ul-sidebar-item"><a href="#masti">Masti i ulja</a></li>
-               <li class="ul-sidebar-item"><a href="#secer">Šećer i skrobovi</a></li>
-                <li class="ul-sidebar-item"><a href="#minerali">Mineralni sastojci</a></li>
-               <li class="ul-sidebar-item"><a href="#vitamini">Vitamini</a></li>
-            </ul>-->
-            <h2>Recepti</h2> 
-            <h3>Hladna predjela</h3>
-            <p class="side-link show-modal"><a href="#punjenajaja">Punjena jaja</a></p>
-            <div class="fakeimg" style="height:150px;">Banner</div><br>
-            <div class="fakeimg" style="height:150px;">Banner</div><br>
-            <div class="fakeimg" style="height:150px;">Banner</div> 
-          </div>         
+        </div>         
+            <div class="side">   
+                <h2>Recepti</h2>    
+                <div class="img-first-sidebar" style="height:230px"></div>             
+                <ul class="ul-sidebar">
+                <li class="ul-sidebar-item"><a href="../recepti/hladna-predjela.html">Hladna predjela</a></li>
+                <!--<li class="ul-sidebar-item"><a href="#topla-predjela">Topla predjela</a></li>
+                <li class="ul-sidebar-item"><a href="#supe">Supe</a></li>-->
+                
+                </ul>                     
+                <div class="fakeimg" style="height:150px;">Banner</div><br>
+                <div class="fakeimg" style="height:150px;">Banner</div><br>
+                <div class="fakeimg" style="height:150px;">Banner</div> 
+            </div>         
       </div>                
       <!-- Footer -->
       <div class="footer">

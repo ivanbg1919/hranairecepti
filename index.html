@@ -14,15 +14,24 @@
     <header class="header">                     
         <h1 class="header-title"><img  class="logo-image" alt="logo" src="img/logo.png">Hrana i Recepti</h1>
     </header>
+    <!-- navigacija -->
     <div class="topnav" id="myTopnav">
         <a href="#naslovna" class="active">Naslovna</a>
-        <a href="hrana/hrana.html">Hrana</a>
-        <a href="recepti/recepti.html">Recepti</a>                 
-        <a href="#kontakt">Kontakt</a>         
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          <i class="fa fa-bars"></i>
-        </a>
-    </div> 
+        <a href="hrana/hrana.html">Hrana</a>        
+        <div class="dropdown">
+          <button class="dropbtn">Recepti 
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="recepti/hladna-predjela.html">Hladna predjela</a>
+          <!--  <a href="#toplapredjela">Topla predjela</a>
+            <a href="#supe">Supe</a> -->
+          </div>
+        </div> 
+        <a href="#kontakt">Kontakt</a>
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+      </div>
+    <!-- kraj navigacije -->
     <div class="row">        
         <div class="main">            
           <h2>ZNAČAJ ISHRANE ZA ORGANIZAM</h2>
@@ -60,7 +69,7 @@
                <li class="ul-sidebar-item"><a href="#vitamini">Vitamini</a></li>
             </ul>-->
             <h2>Recepti</h2> 
-            <h3>Hladna predjela</h3>
+            <h3><a href="recepti/hladna-predjela.html">Hladna predjela</a></h3>
             <p class="side-link show-modal"><a href="#punjenajaja">Punjena jaja</a></p>
             <div class="fakeimg" style="height:150px;">Banner</div><br>
             <div class="fakeimg" style="height:150px;">Banner</div><br>
