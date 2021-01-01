@@ -70,7 +70,7 @@ p {
 
 .active {
   background-color: #56a2ad;
-  color: white;
+  color: white !important;
 }
 
 .topnav .icon {
