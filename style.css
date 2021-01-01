@@ -187,10 +187,19 @@ p {
 }
 
 .side h2 {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   text-transform: uppercase;
   text-align: center;
   color: #222;
+}
+
+.side h2 a {
+  color: #222;
+}
+
+.side h2 a:hover {
+  color: #222;
+  text-decoration: none;
 }
 
 .side h3 {
