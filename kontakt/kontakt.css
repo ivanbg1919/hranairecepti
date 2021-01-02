@@ -4,7 +4,7 @@ ul {
 }
 
 .topnav {
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .kontakt-title {
@@ -303,14 +303,14 @@ input[type="radio"] + label:before {
   opacity: 1;
   color: rgba(0, 0, 0, 0.25) !important;
 }
-
+/*
 .footer {
   position: fixed;
   left: 0px;
   bottom: 0px;
   width: 100%;
 }
-
+*/
 @media screen and (max-width: 736px) {
   label {
     font-size: 0.675rem;
@@ -334,12 +334,5 @@ input[type="radio"] + label:before {
   input[type="checkbox"] + label,
   input[type="radio"] + label {
     font-size: 1rem;
-  }
-}
-
-/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 1000px) {
-  .footer {
-    position: static;
   }
 }
