@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kontakt - Hrana i Recepti</title>
+    <link rel="shortcut icon" href="../favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="kontakt.css">
+    
+    
+</head>
+<body>      
+    <header class="header">                     
+        <h1 class="header-title"><img  class="logo-image" alt="logo" src="../img/logo.png">Hrana i Recepti</h1>
+    </header>
+    <!-- navigacija -->
+    <div class="topnav" id="myTopnav">
+        <a href="../index.html">Naslovna</a>
+        <a href="../hrana/hrana.html">Hrana</a>        
+        <div class="dropdown">
+          <button class="dropbtn">Recepti 
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="../recepti/hladna-predjela.html">Hladna predjela</a>
+          <!--  <a href="#toplapredjela">Topla predjela</a>
+            <a href="#supe">Supe</a> -->
+          </div>
+        </div> 
+        <a href="#kontakt" class="active">Kontakt</a>
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+      </div>
+    <!-- kraj navigacije -->
+    <div class="row">        
+        <div class="main">            
+          <h2 class="kontakt-title">Kontakt</h2>
+          <div class="content">            
+            <form>
+                <div class="fields">
+                    <div class="field half">
+                        <input type="text" name="name" id="name" placeholder="Ime" />
+                    </div>
+                    <div class="field half">
+                        <input type="email" name="email" id="email" placeholder="Email" />
+                    </div>
+                    <div class="field">
+                        <textarea name="message" id="message" placeholder="Poruka" rows="7"></textarea>
+                    </div>
+                </div>
+                <ul class="actions">
+                    <li><input type="submit" value="Pošalji poruku" class="button primary" /></li>
+                </ul>
+            </form>
+        </div>
+        </div>        
+        <div class="side">   
+            <h2><a href="hrana/hrana.html">Hrana i njeni sastojci</a></h2>    
+            <div class="img-first-sidebar" style="height:250px"></div>             
+            <!--<ul class="ul-sidebar">
+               <li class="ul-sidebar-item"><a href="#belancevine">Belančevine</a></li>
+               <li class="ul-sidebar-item"><a href="#masti">Masti i ulja</a></li>
+               <li class="ul-sidebar-item"><a href="#secer">Šećer i skrobovi</a></li>
+                <li class="ul-sidebar-item"><a href="#minerali">Mineralni sastojci</a></li>
+               <li class="ul-sidebar-item"><a href="#vitamini">Vitamini</a></li>
+            </ul>-->
+            <h2>Recepti:</h2> 
+            <h3><a href="recepti/hladna-predjela.html">Hladna predjela</a></h3>            
+           <!-- <div class="fakeimg" style="height:150px;">Banner</div><br>
+            <div class="fakeimg" style="height:150px;">Banner</div><br>
+            <div class="fakeimg" style="height:150px;">Banner</div> -->
+          </div>         
+      </div>                
+      <!-- Footer -->
+      <div class="footer">
+        <p>Development by Ivan R.</p>
+      </div>                      
+    <script src="script.js"></script>
+</body>
+
+</html>
