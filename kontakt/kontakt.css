@@ -357,6 +357,14 @@ input[type="radio"] + label:before {
   color: rgba(0, 0, 0, 0.25) !important;
 }
 
+.footer {
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  /* height: 30px; */
+  width: 100%;
+}
+
 @media screen and (max-width: 736px) {
   label {
     font-size: 0.675rem;
@@ -365,6 +373,11 @@ input[type="radio"] + label:before {
   input[type="checkbox"] + label,
   input[type="radio"] + label {
     font-size: 1rem;
+  }
+
+  .footer {
+    position: static;
+    width: 100%;
   }
 }
 
@@ -381,12 +394,4 @@ input[type="radio"] + label:before {
   .topnav {
     margin-bottom: 0;
   }
-}
-
-.footer {
-  position: fixed;
-  left: 0px;
-  bottom: 0px;
-  /* height: 30px; */
-  width: 100%;
 }
