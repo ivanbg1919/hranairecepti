@@ -272,10 +272,20 @@ p {
   width: 100%;
   padding: 20px;
   margin-bottom: 5px;
+  border: 1px solid #cfcfcf;
 }
 
 .img-second-sidebar {
   background-image: url("img/appetizer.jpg");
+  background-size: cover;
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 5px;
+  border: 1px solid #cfcfcf;
+}
+
+.img-three-sidebar {
+  background-image: url("img/soup.jpg");
   background-size: cover;
   width: 100%;
   padding: 20px;
@@ -320,7 +330,8 @@ p {
 .footer {
   padding: 20px;
   text-align: center;
-  background: #365b61;
+  background: #d35b3f;
+  background-image: linear-gradient(to right, #d35b3f, #ac452e);
 }
 
 .footer p {
