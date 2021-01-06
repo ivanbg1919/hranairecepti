@@ -38,7 +38,10 @@
         <div class="main">            
           <h2 class="kontakt-title">Kontakt</h2>
           <div class="content">                     
-            <form action="POST" id="form" data-netlify="true">
+            <form action="POST" id="form" netlify-honeypot="bot-field" data-netlify="true">
+                <p class="hidden">
+                    <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
+                  </p>
                 <div class="fields">
                     <div class="field half">
                         <input type="text" name="name" id="name" placeholder="Ime" oninvalid="this.setCustomValidity('Molim vas upišite vaše ime!')" onchange="this.setCustomValidity('')" required/>
@@ -47,11 +50,11 @@
                         <input type="email" name="email" id="email" placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" oninvalid="this.setCustomValidity('Molim vas upišite vaš email')" onchange="this.setCustomValidity('')" required/>
                     </div>
                     <div class="field">
-                        <textarea name="message" id="message" placeholder="Poruka" rows="7" oninvalid="this.setCustomValidity('Molim vas popunite polje!')" onchange="this.setCustomValidity('')" required></textarea>
+                        <textarea name="message" id="message" placeholder="Poruka" rows="7" oninvalid="this.setCustomValidity('Molim vas popunite polje!')" onchange="this.setCustomValidity('')" required></textarea>                    
                     </div>                    
-                    <div class="field">
+                 <!--   <div class="field">
                         <div data-netlify-recaptcha="true"></div>
-                    </div>    
+                    </div>  -->  
                 </div>
                 <ul class="actions">
                     <li><input type="submit" value="Pošalji poruku" class="button primary" /></li>
