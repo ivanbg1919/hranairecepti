@@ -44,7 +44,7 @@
                         <input type="text" name="name" id="name" placeholder="Ime" oninvalid="this.setCustomValidity('Molim vas upišite vaše ime!')" onchange="this.setCustomValidity('')" required/>
                     </div>
                     <div class="field half">
-                        <input type="email" name="email" id="email" placeholder="Email" oninvalid="this.setCustomValidity('Molim vas upišite vaš email')" onchange="this.setCustomValidity('')" required/>
+                        <input type="email" name="email" id="email" placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" oninvalid="this.setCustomValidity('Molim vas upišite vaš email')" onchange="this.setCustomValidity('')" required/>
                     </div>
                     <div class="field">
                         <textarea name="message" id="message" placeholder="Poruka" rows="7" oninvalid="this.setCustomValidity('Molim vas popunite polje!')" onchange="this.setCustomValidity('')" required></textarea>
