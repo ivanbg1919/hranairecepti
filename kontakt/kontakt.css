@@ -82,9 +82,9 @@ form > .fields > .field.quarter {
   width: calc(25% - 0.5rem);
 }
 
-/*.hidden {
+.hidden {
   display: none;
-}*/
+}
 
 @media screen and (max-width: 480px) {
   form > .fields {
