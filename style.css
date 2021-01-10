@@ -212,11 +212,12 @@ p {
 
 .side h3 a {
   color: #222;
+  text-decoration: none;
 }
 
 .side h3 a:hover {
-  color: #222;
-  text-decoration: none;
+  color: #56a2ad;
+  text-decoration: underline;
 }
 
 .side-link {
