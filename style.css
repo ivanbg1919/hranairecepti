@@ -6,7 +6,7 @@
 body {
   /*font-family: Arial, Helvetica, sans-serif;*/
   font-family: "Roboto", sans-serif;
-  background-color: #ebebeb;
+  background-color: #f1f1f1;
   padding: 0;
 }
 
@@ -32,11 +32,20 @@ body {
 
 article {
   margin-bottom: 1rem;
+  padding: 1rem;
+  background: #fff;
+  border: 1px solid #bbbbbb;
 }
 
 h2 {
   color: #222;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+
+h3 {
   font-size: 1.2rem;
+  text-transform: uppercase;
 }
 
 h5 {
@@ -48,7 +57,7 @@ p {
   font-family: "Roboto", sans-serif;
   padding: 5px 0;
   text-align: justify;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 /* top navbar */
@@ -176,15 +185,18 @@ p {
 
 .main {
   flex: 70%;
-  background-color: white;
+  background-color: #f1f1f1;
   padding: 20px;
 }
 
 .side {
   flex: 30%;
-  background-color: #f1f1f1;
+  background-color: #fff;
   padding: 20px;
   text-align: center;
+  margin-top: 1.3em;
+  border: 1px solid #bbbbbb;
+  border-bottom: none;
 }
 
 .side h2 {
@@ -354,17 +366,12 @@ p {
     flex-direction: column;
   }
 
+  .side {
+    margin-top: 0;
+  }
+
   .header-title {
     text-align: center;
     font-size: 1.2rem;
-  }
-
-  .modal {
-    width: 100%;
-    padding: 1.2rem;
-  }
-  .close-modal {
-    font-size: 2rem;
-    top: 1rem;
   }
 }
