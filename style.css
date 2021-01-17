@@ -375,3 +375,17 @@ p {
     font-size: 1.2rem;
   }
 }
+
+@media screen and (max-width: 500px) {
+  article {
+    padding: 5;
+    border: none;
+  }
+  .main {
+    padding: 0px;
+  }
+
+  .side {
+    border: none;
+  }
+}
